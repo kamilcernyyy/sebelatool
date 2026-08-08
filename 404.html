@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="cs" data-theme="light">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="theme-color" content="#FDFCFA"/>
+<meta name="robots" content="noindex"/>
+<title>Stránka nenalezena — ŠEBELA TOOL, s.r.o.</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+:root{--or:#FF5500;--orh:#FF8200;--bk:#FDFCFA;--tx:#191510;--mt:#8b857b;--fd:'Oswald',sans-serif;--fb:'DM Sans',sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bk);color:var(--tx);font-family:var(--fb);font-weight:300;min-height:100dvh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 20px;overflow:hidden;position:relative}
+.bg{position:absolute;inset:0;z-index:0;background-image:linear-gradient(rgba(20,16,12,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(20,16,12,.04) 1px,transparent 1px),radial-gradient(60% 60% at 50% 40%,rgba(255,85,0,.14),transparent 60%);background-size:56px 56px,56px 56px,100% 100%}
+.wrap{position:relative;z-index:1;max-width:560px}
+.code{font-family:var(--fd);font-weight:700;font-size:clamp(90px,22vw,200px);line-height:.9;color:var(--or);letter-spacing:.03em}
+h1{font-family:var(--fd);font-weight:600;font-size:clamp(24px,5vw,40px);letter-spacing:.04em;text-transform:uppercase;margin:14px 0 16px;color:var(--tx)}
+p{color:var(--mt);font-size:16px;line-height:1.7;margin-bottom:34px}
+.btn{display:inline-block;background:var(--or);color:#fff;font-family:var(--fd);font-weight:600;font-size:15px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;padding:16px 40px;transition:background .2s,transform .1s}
+.btn:hover{background:var(--orh);transform:translateY(-2px)}
+.brand{position:absolute;top:28px;left:0;right:0;z-index:1;font-family:var(--fd);font-weight:600;font-size:22px;letter-spacing:.05em;color:var(--tx)}
+.brand span{color:var(--or)}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<a href="/" class="brand" style="text-decoration:none">ŠEBELA<span>TOOL</span></a>
+<div class="wrap">
+  <div class="code">404</div>
+  <h1>Stránka nenalezena</h1>
+  <p>Tuto stránku se nepodařilo najít. Možná byla přesunuta nebo už neexistuje. Vraťte se na úvod a pokračujte odtud.</p>
+  <a href="/" class="btn">Zpět na úvod</a>
+</div>
+</body>
+</html>
